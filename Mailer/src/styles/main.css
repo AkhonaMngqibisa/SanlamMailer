@@ -1,0 +1,273 @@
+:root{
+
+  /*========== COLORS ==============*/
+   --blue: #0075C9;
+   --white: #FFFFFF;
+   --black: #000000;
+
+  /*========== FONTS ==============*/
+   --body-font: 'Roboto';
+
+  /*========== FONT SIZES ==========*/
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --h4-font-size: 1.500rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+   
+  /*========== FONT WEIGHTS =========*/
+  --font-small: 200;
+  --font-x-medium: 300;
+  --font-medium: 400;
+  --font-semi-bold: 500;
+  --font-x-bold: 700;
+   
+}
+body{
+  margin:0;
+  padding:0;
+  color:var(--black);
+}
+
+table{
+  /*
+  width:600px;
+  border-collapse:collapse;
+  border-spacing:0;
+  border:1px solid #cccccc;
+  text-align:left;
+  */
+  
+  width:100%;
+  border-collapse:collapse;
+  border:0;
+  border-spacing:0;
+}
+table, td, div, h1, p {
+  font-family: 'Roboto';
+}
+table, td {
+  border:0px solid var(--black) !important;
+}
+.semi-bold{
+  font-weight: var(--font-semi-bold);
+}
+.x-bold{
+  font-weight: var(--font-x-bold);
+}
+.blue-txt{
+  color: var(--blue);
+  font-weight: var(--font-x-bold);
+}
+.hl{
+  width: 32px;
+  height:2px;
+  margin: 0px;
+  border-color: var(--blue);
+  background-color: var(--blue);
+  border: none;
+}
+.vl {
+  display: inline-block;
+  border-left: 2px solid var(--white); 
+  height: 10px;
+}
+
+.pd{
+  padding: 20px;
+  margin-right: 20px;
+}
+
+/*ROW1 */
+.row1{
+  background:var(--white);
+  padding:40px 0 0 0;
+  align-content: center;
+}
+.emailNotDisplaying{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: var(--font-medium);
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+}
+.image{
+  min-width: 800px;
+  min-height: 500px;
+  display:block;
+  background-image: url("https://s3-alpha-sig.figma.com/img/3235/9533/b400ffda1e8d96065d445653892bbe49?Expires=1663545600&Signature=hcT9rPDzMoQi-9-NeoGFryHHm-E0SR5d2~PjxPP8eUDL4JbGgZTwoMmnY7C3YpzjrcToj7qi1cUgAvHrCWWhYp3Ygm5piGi6FqdWrV6DvtPgtA3Amb6Vk6jrHgdFpebQKqDm6wiwmjJlbSko~5kfdcp2CaIbdFM08YG2u-OGLcRNVsEWawvSkCRUPkq2HNcpoVt17q81LVAlDal2w2aHA4CY~ZIdPfNlEzumapfjEfm~lhI5np7qGfSGl813nGYWNUucUyF2LJYbkym0SbhblBkt-ytQ5v~MbR34g7XCFlYoA4A3Lfp7ZAWJNouYsT3GuWpOqRJh3ggNfWBkUJ7SSw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+/*ROW2 */
+.row2{
+  width: 600px;
+  height: 300px;
+  background:var(--white);
+  padding:36px 30px 42px 30px;
+}
+.greetings{
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight:var(--font-medium);
+  line-height: 18.75px;
+}
+.heading{
+  font-family: "Roboto";
+  font-weight: var(--font-x-medium);
+  font-size: 28px;
+  line-height: 32.81px;
+}
+.subheading{
+  font-family: "Roboto";
+  font-weight: var(--font-semi-bold);
+  font-size: 20px;
+  line-height: 23.44px;
+}
+.content-par{
+  font-family: "Roboto";
+  font-style: normal;
+  color: #333E48;
+  font-weight: var(--font-medium);
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+.btn{
+  width: 165px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  background:var(--blue);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight:var(--font-medium);
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  color: var(--white);
+}
+.bg-btn{
+  width: 246px;
+}
+.a{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight:var(--font-medium);
+  line-height: 14px;
+  font-size: 12px;
+  text-align: center;
+}
+
+/*ROW3 */
+.row3{
+  background: #F5F7FA;
+  width: 600px;
+  height: 300px;
+  padding:36px 30px 42px 30px;
+}
+.questions{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: var(--font-semi-bold);
+  font-size: 20px;
+  line-height: 23px;
+  color: #080C0A;
+}
+.answers{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: var(--font-medium);
+  font-size: 16px;
+  line-height: 22px;
+  color: #333E48;
+  letter-spacing: -0.2px;
+
+}
+
+/*ROW4 */
+.row4{
+  width: 600px;
+  height: 300px;
+  background:var(--white);
+  padding:36px 30px 42px 30px;
+}
+.info{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight:var(--font-medium);
+  line-height: 22px;
+  font-size: 16px;
+  color: #333E48;
+}
+.signitureImage{
+  width: 205px;
+  height: 73px;
+}
+.details{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight:var(--font-medium);
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+  color: #000000;
+}
+.fullName{
+  font-size: 16px;
+  font-weight:var(--font-x-bold);
+
+}
+
+/*ROW5 */
+.row5{
+  background:var(--blue);
+  width: 100%;
+  height: 245px;
+  padding:36px 30px 42px 30px;
+}
+.menu-item{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: var(--font-medium);
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.2px;
+  color: var(--white);
+}
+.footer-content{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: var(--font-medium);
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #FFFFFF;
+
+}
+.social{
+  margin-left:50px;
+}a{
+  color: var(--white);
+}
+
+/*Responsive 
+@media only screen and (min-width: 600px) {
+  table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+}
+*/
+@media only screen and (min-width: 768px) {
+
+}
